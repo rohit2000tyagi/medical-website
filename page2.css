@@ -1,0 +1,41 @@
+body{
+
+	background: #4AC29A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.text-center{
+	text-align: center;
+	margin-top: 20%;
+
+}
+
+.hover-border{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, Sans-serif;
+	font size: 80px;
+	text-decoration: none;
+	position: relative;
+	color: red;
+
+}
+
+.hover-border::after{
+	content:''; 
+	width:15%;
+	height:1px;
+	background-color: purple;
+	position: absolute;
+	bottom: 0%; left: 0%;
+	border-right: 10px;
+	transition: all 500ms ease;
+
+
+}
+
+.hover-border:hover::after{
+	left: 0%;
+	width: 100%;
+}

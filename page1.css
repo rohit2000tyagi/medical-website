@@ -1,0 +1,24 @@
+div{
+
+	background: purple;
+	color: white;
+}
+
+#Quote{
+
+	font-family: "verdana", "gill sans";
+	color: black;
+
+}
+
+.Movie{
+
+	color: white;
+	background: steelblue;
+}
+
+span#author{
+
+	text-transform: uppercase;
+}
+

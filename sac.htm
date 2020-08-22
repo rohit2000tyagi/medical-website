@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title>Photo Battleground</title>
+	<style>
+	.navbar-brand{text-decoration-line: underline;
+				  text-decoration-style: double;
+				  font-size:30px;
+				  font-family:Monotype Corsiva, Times, Serif;
+				  font-weight:bolder;
+				  color:rgb(255,50,195)!important;
+				  
+			
+		
+	}
+	.button {
+			  background-color: #4CAF50; /* Green */
+			  border: none;
+			  color: white;
+			  padding: 20px;
+			  text-align: center;
+			  text-decoration: none;
+			  border-radius: 12px;
+			  display: inline-block;
+			  font-size: 16px;
+			  margin: 10px 2px;
+			  cursor: pointer;
+			}
+	
+	.dropdown-item{ 
+					border:.5px solid gray;
+					border-radius:15px;
+					background-color:#ddd;
+					
+							  
+					}
+	.dropdown-menu{
+					border:none;
+					background-color:transparent;
+					}
+
+	.ac{
+		position:relative;
+		}
+
+
+	
+
+	
+	</style>
+  </head>
+  <body>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#" title="This is a Photo Battleground unclickable logo">Photo <i class="fa fa-camera"></i> Battleground</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+    
+	<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Checkout Your Account">
+          My Battle Account
+        </a>
+			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			<ul>
+			  <a class="dropdown-item" href="mygallery.html"><li>My Gallery</li></a>
+			  <a class="dropdown-item" href="#"><li>Join A Battle</li></a>
+			  <a class="dropdown-item" href="#"><li>On Going Battle's </li></a>
+			  <a class="dropdown-item" href="#"><li>Battle's Draft</li></a>
+			  <a class="dropdown-item" href="#"><li>Battle History</li></a>
+			  <a class="dropdown-item" href="https://twitter.com/login?lang=en"><li>Invite Friend's  For Battles</li></a>
+			 </ul>
+			</div>
+		
+    </li>
+	<li class="nav-item active2">
+        <a class="nav-link" href="contactus.html" title="Go To Home">Contact Us <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="wallet.html" title="Go To Wallet">Wallet</a>
+    </li>
+	<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Check The Rules & Condition">
+          Rule & Condition
+        </a>
+		
+			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			<ul>
+			  <a class="dropdown-item" href="#"><li>Through Pictures Guide</li></a>
+			  <a class="dropdown-item" href="#"><li>How To Play</li></a>
+			  <a class="dropdown-item" href="#"><li>Playing Rule</li></a>
+			  <a class="dropdown-item" href="#"><li>About Withdraw</li></a>
+			  <a class="dropdown-item" href="#"><li>How To Invite</li></a>
+			 </ul>
+			</div>
+		
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="More">
+          More
+        </a>
+		
+			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			<ul>
+			  <a class="dropdown-item" href="#"><li>Your Picture Battleground History</li></a>
+			  <a class="dropdown-item" href="#"><li>Friends Picture Battleground History </li></a>
+			  <a class="dropdown-item" href="#"><li>Feedback</li></a>
+			  <a class="dropdown-item" href="sugform.html"><li>Suggestions</li></a>
+			  <a class="dropdown-item" href="contactus.html"><li>Contact Us</li></a>
+			 </ul>
+			</div>
+			
+    </li>
+	<li class="nav-item dropdown">
+        <a class="nav-link " href="signup.html" role="button" aria-haspopup="true" aria-expanded="false" title="sing-up">
+          <button onclick="signup.html">SIGN-UP</button>
+        </a>
+	</li>
+	<li class="nav-item dropdown">
+        <a class="nav-link " href="login.html" role="button" aria-haspopup="true" aria-expanded="false" title="log-in">
+          <button>LOG-IN</button>
+        </a>
+	</li>
+	</ul>
+    <form class="form-inline my-2 my-lg-0"action="https://www.google.com/search" method="GET">
+      <input class="form-control mr-sm-2" type="text" name="q" placeholder="google Search" aria-label="Search">
+      <input class="btn btn-outline-success my-2 my-sm-0" type="submit" value="search">
+    </form>
+  </div>
+</nav>
+
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active" >
+      <img class="d-block w-100" src="a1.jpeg" alt="First slide" style=" position=relative; height:500px;">
+	  
+    </div>
+    <div class="carousel-item" >
+      <img class="d-block w-100" src="a2.jpeg" alt="Second slide"style="position:relative;height:500px;">
+    </div>
+    <div class="carousel-item" >
+      <img class="d-block w-100" src="a3.jpeg" alt="Third slide"style="position:relative;height:500px;">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<h1 class="heading match_center_title" style="text-align:center; padding:40px;">BATTLE MATCHES</h1>
+<div>
+<div class="fluid-container" style="background-color:black;" class="playnow">
+	<div class="container" style="padding:10px;">
+	<div style="margin:10px;">
+	<div class="row" style="background-color:gray; padding:40px;">
+			<div class="col"><h3>ONE VS ONE BATTLE'S</h3></div>
+			<div class="col" style="text-align:center;"><button>ENTER</button></div>
+	</div>
+	</div>
+	<div style="margin:10px;">
+	<div class="row" style="background-color:gray; padding:40px;">
+			<div class="col"><h3>FREE BATTLE'S</h3></div>
+			<div class="col"style="text-align:center;"><button>ENTER</button></div>
+	</div>
+	</div>
+	<div style="margin:10px;">
+	<div class="row" style="background-color:gray; padding:40px;">
+			<div class="col"><h3>CASH BATTLE'S</h3></div>
+			<div class="col" style="text-align:center;"><button>ENTER</button></div>
+	</div>
+	</div>
+	<div style="margin:10px;">
+	<div class="row" style="background-color:gray; padding:40px;">
+			<div class="col"><h3>BATTLE WITH STRANGER'S</h3></div>
+			<div class="col"style="text-align:center;"><button>ENTER</button></div>
+	</div>
+	</div>
+	<div style="margin:10px;">
+	<div class="row" style="background-color:gray; padding:40px;">
+			<div class="col"><h3>CUSTOM</h3></div>
+			<div class="col" style="text-align:center;"><button>ENTER</button></div>
+	</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-md-12 col-sm-12" style="text-align:center;margin:15px; "><button style="background-color:green;">MORE MATCHES</button></div>
+	</div>
+	</div>
+	
+</div>
+<div class="container">
+	<div class="row" style="margin-top:40px;">
+		<div class="col"><h3 style="text-align:center;">7M+ USERS</h3></div>
+		<div class="col"><h3 style="text-align:center;">DAILY CONTESTS</h3></div>
+		
+	</div>
+</div>
+<hr style="margin:20px;">
+
+<div class="container">
+	<div class="row" style="margin-top:30px;">
+		<div class="col"><h3 style="text-align:center;">HOW TO PLAY</h3></div>
+    </div>
+</div>
+<div style="margin-top:20px; background-color:#f4f4f4">
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 col-lg-8" style="margin-top:20px;">
+      <iframe class="w-100" height="400vw" src="sac1.mp4"></iframe>
+	</div>
+	<div class="col-md-4 col-lg-4" style="margin-top:20px;">
+	    <div class="col-md-12">
+	     <div class="row">
+		   <div class="col-md-4">
+		    <div style="font-size:50px; text-align:center;">1.</div>
+		   </div>
+		   <div class="col-md-8">
+		    <h3 style="color:gray">FIRST SIGN-UP IN OUR WEBSITE</h3>
+           </div>
+    	 </div>
+		 <div class="row">
+		   <div class="col-md-4">
+		    <div style="font-size:50px; text-align:center;">2.</div>
+		   </div>
+		   <div class="col-md-8">
+		    <h3 style="color:gray">SELECT YOUR FAVOURITE CONTESTS </h3>
+           </div>
+    	 </div>
+		 <div class="row">
+		   <div class="col-md-4">
+		    <div style="font-size:50px; text-align:center;">3.</div>
+		   </div>
+		   <div class="col-md-8">
+		    <h3 style="color:gray">JOIN FREE & CASH CONTESTS</h3>
+           </div>
+    	 </div>
+		 <div class="row">
+		   <div class="col-md-12">
+		      <div style="text-align:center;"><a href="signup.html"><button class="button">PLAY NOW</button></a></div>
+		   </div>
+        </div>
+	</div>
+   </div>
+</div>
+</div>
+</div>
+<hr>
+<hr>
+<div class="container">
+	<div class="row" style="margin-top:30px;">
+		<div class="col"><h3 style="text-align:center;">SOME PREVIOUS CONTESTS WINNERS</h3></div>
+    </div>
+</div>
+<div style="background-color:#f4f4f4; margin-top:30px;">
+    <div class="container">
+		<table class="table">
+		  <thead>
+			<tr>
+			  <th scope="col">#</th>
+			  <th scope="col">Player No.1</th>
+			  <th scope="col">Player No.2</th>
+			  <th scope="col">Winner</th>
+			  <th scope="col">Hearts Difference</th>
+			</tr>
+		  </thead>
+		  <tbody>
+			<tr>
+			  <th scope="row">*</th>
+			  <td>Ganesh Gaitonde</td>
+			  <td>Sardar Ji</td>
+			  <td>Ganesh Gaitonde</td>
+			  <td>5k+</td>
+			</tr>
+			<tr>
+			  <th scope="row">*</th>
+			  <td>Thanos</td>
+			  <td>Averger's</td>
+			  <td>Averger's</td>
+			  <td>1M+</td>
+			</tr>
+			<tr>
+			  <th scope="row">*</th>
+			  <td>Bahubali</td>
+			  <td>Bhalal Dev</td>
+			  <td>Bahubali</td>
+			  <td>500k+</td>
+			</tr>
+			<tr>
+			  <th scope="row">*</th>
+			  <td>Samyak</td>
+			  <td>Alia</td>
+			  <td>Samyak</td>
+			  <td>50k+</td>
+			</tr>
+		  </tbody>
+		</table>
+		<div class="row">
+			<div class="col-md-12 col-sm-12" style="text-align:center;margin:5px; "><a href="contresult.html"><button style="background-color:green;">MORE MATCHES</button></a></div>
+		</div>
+</div>
+</div>
+<div class="container">
+	<div class="row" style="margin-top:30px;">
+		<div class="col"><h3 style="text-align:center;">SOME COMMON FEEDBACK'S BY USERS</h3></div>
+    </div>
+</div>
+<div style="background-color:LightCoral">
+<div class="container">
+	<div class="row" style="margin-top:40px;">
+		<div class="col-md-6"style="margin-top:40px; border:2px solid black; background-color:#f4f4f4">
+			<div class="row">
+				<div class="col-md-7">
+					<img class="d-block w-100" src="a6.jpg" alt="First slide">
+				</div>
+				<div class="col-md-5">
+					<p style="text-align:justify;">“I think you did a great job when you creating a that website. It showed that you are capable of getting people together. I admire your programing skills.”<footer style="text-align:right;"><a href="https://www.facebook.com/photo.php?fbid=2427416420874370&set=pob.100008181078493&type=3&theater">--SAMYAK JAIN</a></footer></p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6"style="margin-top:40px; border:2px solid black; background-color:#f4f4f4">
+		    <div class="row">
+				<div class="col-md-7">
+					<img class="d-block w-100" src="a1.jpeg" alt="First slide">
+				</div>
+				<div class="col-md-5">
+				<p style="text-align:justify;">“It is easy to navigate site because all of the links are right there on the left hand side,and people without image-loading browserscan access the links”<footer style="text-align:right;"><a href="#">--M.K</a></footer></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6" style="margin-top:35px; border:2px solid black; background-color:#f4f4f4">
+			<div class="row">
+				<div class="col-md-7">
+					<img class="d-block w-100" src="a4.jpg" alt="First slide">
+				</div>
+				<div class="col-md-5">
+					<p style="text-align:justify;">“It is easy to navigate site because all of the links are right there on the left hand side,and people without image-loading browserscan access the links”<footer style="text-align:right;"><a href="#">--D.D</a></footer></p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6"style="margin-top:35px; border:2px solid black; background-color:#f4f4f4">
+		    <div class="row">
+				<div class="col-md-7">
+					<img class="d-block w-100" src="a7.jpg" alt="First slide">
+			    </div>
+				<div class="col-md-5">
+				<p style="text-align:justify;">“I think you did a great job when you creating a that website. It showed that you are capable of getting people together. I admire your programing skills.”<footer style="text-align:right;"><a href="#">--NOT KNOWING</a></footer></p>
+				</div>
+		    </div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12 col-sm-12" style="text-align:center;margin-bottom:30px;  "><button style="background-color:green; margin-top:8px;">MORE FEEDBACKS</button></div>
+	</div>
+</div>
+</div>
+<div class="fluid-container" style="background-color:black;">
+<div class="row">
+	<div class="col-md-3" >
+		<ul>
+			<li style="color:white; text-align:; list-style:none; padding:10px;"><a href="https://play.google.com/store/apps/category/GAME">DOWNLOAD APP</a></li>
+			<li style="color:white; text-align:;list-style:none; padding:10px;"><a href="#">HOW TO PLAY</a></li>
+			<li style="color:white; text-align:;list-style:none;padding:10px;"><a href="#">CONTESTS</a></li>
+			<li style="color:white; text-align:;list-style:none;padding:10px;"><a href="#">WINNERS</a></li>
+		</ul>
+	</div>
+	<div class="col-md-3">
+		<ul>
+			<li style="color:white; text-align:; list-style:none; padding:10px;"><a href="#">ABOUT US</a></li>
+			<li style="color:white; text-align:;list-style:none; padding:10px;"><a href="#">FEEDBACK</a></li>
+			<li style="color:white; text-align:;list-style:none;padding:10px;"><a href="#">JOIN US</a></li>
+			<li style="color:white; text-align:;list-style:none;padding:10px;"><a href="#">JOBS OFFERS</a></li>
+		</ul>
+	</div>
+	<div class="col-md-3">
+		<ul>
+			<li style="color:white; text-align:; list-style:none; padding:10px;"><a href="#">CONTACT US</a></li>
+			<li style="color:white; text-align:;list-style:none; padding:10px;"><a href="#">ANOTHER PRODUCTS</a></li>
+			<li style="color:white; text-align:;list-style:none;padding:10px;"><a href="#">MAKE A TOUR</a></li>
+			<li style="color:white; text-align:;list-style:none;padding:10px;"><a href="sugform.html">SUGGESTIONS</a></li>
+		</ul>
+	</div>
+	<div class="col-md-3">
+		<ul>
+			<li style="color:white; text-align:; list-style:none; padding:10px;"><a href="#">HELPDESK</a></li>
+			<li style="color:white; text-align:;list-style:none; padding:10px;"><a href="#">FOR QUARY</a></li>
+			<li style="color:white; text-align:;list-style:none;padding:10px;"><a href="#">YOUR COMPLAINENTS</a></li>
+			<li style="color:white; text-align:;list-style:none;padding:10px;"><a href="#">OTHER INFORMATIONS</a></li>
+		</ul>
+	</div>
+</div>
+<p style="border-bottom:2px solid white;"></p>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12" style="text-align:center; color:white; font-size:30px;">OUR CORPORATE OFFICE</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12" style="text-align:center; color:white; margin-bottom:20px;">Unit No.1802, 18th Floor, Tower B, Peninsula Business Park, Off Senapati Bapat Marg, Lower Parel, Mumbai 400013</div>
+	</div>
+</div>
+</div>
+<div class="fluid-container" style="background-color:gray;">
+	<div class="row" style="padding:30px;">
+		<div class="col-md-5" style="text-align:right; color:white; font-size:25px;"><a href="#">PRIVACY POLICY</a></div>
+		<div class="col-md-1" style="text-align:center; color:white; font-size:25px;">|</div>
+		<div class="col-md-6" style="text-align:left; color:white; font-size:25px;" ><a href="#">TERMS & CONDITIONS</a></div>
+		
+	</div>
+</div>
+
+  
+  </body>
+</html>
